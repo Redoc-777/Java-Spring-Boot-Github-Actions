@@ -3,7 +3,7 @@ name: Build & Deploy Spring app
 on:
   push:
     branches:
-      - dev
+      - main
 jobs:
   build-deploy:
     name: Build & Deploy
